@@ -1,15 +1,12 @@
 .screen-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
+  position: sticky;
+  top: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
-  padding-top: 25px;
-  margin-top: 25px;
-  box-sizing: border-box;
   background-color: white;
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
