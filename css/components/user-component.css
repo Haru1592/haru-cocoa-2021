@@ -42,17 +42,20 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
 
-.friends-screen__Channel-header span {
-  font-weight: 600;
+.user-component__column:last-child span {
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .user-component__time {
   margin-bottom: 5px;
   display: block;
+}
+
+.user-component i {
+  color: inherit;
 }
