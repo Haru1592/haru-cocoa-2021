@@ -42,6 +42,7 @@
   justify-content: space-between;
   align-items: center;
   padding-bottom: 20px;
+  margin-bottom: 20px;
   border-bottom: var(--main-border);
 }
 
@@ -105,4 +106,32 @@
 
 .open-post__heart-count span {
   margin-left: 5px;
+}
+
+.more-suggestions__icons {
+  margin-left: 20px;
+  display: flex;
+}
+
+.more-suggestions__icon {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-suggestions__icon-image {
+  width: 60px;
+  height: 60px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.more-suggestions__icon-image i {
+  font-size: 32px;
+  color: white;
 }
