@@ -52,10 +52,14 @@
 }
 
 .user-component__time {
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   display: block;
 }
 
 .user-component i {
   color: inherit;
+}
+
+.user-component__column .badge {
+  visibility: hidden;
 }

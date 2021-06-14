@@ -1,22 +1,33 @@
 .alt-header {
+  position: sticky;
+  top: 26px;
   padding: var(--horizontal-space);
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  background-color: white;
+  z-index: 1;
 }
 
 .alt-header__title {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 600;
 }
 
-.alt-header__column:first-child {
-  margin-right: auto;
+.alt-header__column {
+  width: 33%;
+}
+
+.alt-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
 }
 
 .alt-header__column:last-child {
-  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .alt-header__column i {
@@ -25,4 +36,8 @@
 
 .alt-header__column .fa-lg {
   font-size: 35px;
+}
+
+.alt-header__column span:last-child {
+  margin-left: 20px;
 }
